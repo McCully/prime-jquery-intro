@@ -24,7 +24,7 @@ $(document).ready(function() {
       // append to DOM
       appendDom(values);
     });
-
+     // creating empty div into #container.
     function appendDom(empInfo) {
       $('#container').append('<div class="person"></div>');
       var $el = $('#container').children().last();
