@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     function shout() {
       // demonstrate adding a class to only the given element
-      $(this).addClass('clicked');
+      $(this).addClass('clicked');   
       alert("Avengers, assemble!");
     }
 
